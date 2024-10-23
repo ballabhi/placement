@@ -1,0 +1,68 @@
+Q: Why did you choose to pursue a career in software engineering?
+A:1. I’ve always had an interest in how technology can solve real-world problems. As a software engineer, I can use my problem-solving skills to create solutions that impact people’s lives, whether it’s developing user-friendly applications or creating backend systems that handle large-scale data.
+2. Growing up, my father worked as an accountant, and we always had laptops and desktops around the house. From a young age, I was curious about how they worked and started learning to use them. As my interest in technology grew, I explored more about the field, which eventually led me to pursue a career in software engineering.
+
+----------------------------------------------------------------------------------
+Q: Biggest takeaway from your IBM internship?
+A: My biggest takeaway from IBM was understanding the importance of user experience in product design. I learned how to balance functionality with a user-friendly interface, ensuring the platform not only worked efficiently but was intuitive for users. This experience also strengthened my teamwork and project management skills.
+
+----------------------------------------------------------------------------------
+Q: How do leadership roles prepare you for a professional career?
+A: Leading teams in clubs like the Photography Club taught me how to manage projects, communicate effectively, and motivate team members to meet deadlines. These leadership skills directly translate to working in professional environments where teamwork and responsibility are critical.
+
+----------------------------------------------------------------------------------
+Q: A time you had a disagreement with a team member?
+A: During my internship, we had a disagreement over the design of a feature. I facilitated a discussion where both sides presented their ideas. By focusing on the end user’s needs and project goals, we reached a compromise that integrated the best aspects of both ideas, leading to a more refined solution.
+
+----------------------------------------------------------------------------------
+Q: What is your greatest strength?
+A: My greatest strength is my ability to learn quickly and adapt to new technologies.I am very collaborative  I have always enjoyed working on teams and it is one of my strongest attributes. also i am self motivated person and I am very optimistic in every situation.  
+
+----------------------------------------------------------------------------------
+Q: A skill you are improving?
+A: I’m working on improving my understanding of cloud computing, particularly AWS. I’ve taken online courses and am working on projects to deepen my expertise in deploying scalable applications on the cloud.
+
+----------------------------------------------------------------------------------
+Q: Where do you see yourself in five years?
+A: In five years, I see myself taking on more responsibility, possibly in a lead developer role where I can guide teams in creating innovative solutions. I also aim to become proficient in cloud technologies and contribute to large-scale projects.
+
+-----------------------------------------------------------------------------------
+Q. have u faced conflict in group project (Medi-connect)
+Yes, I faced a conflict during the development of a healthcare website called Medi-Connect in college. There was a disagreement among team members about the design and functionality. Some members preferred a more minimalist interface, focusing on essential features, while others wanted to include additional functionalities to enhance user engagement.
+
+To address this, I proposed that we hold a team meeting to discuss our ideas openly. We weighed the pros and cons of both approaches and decided to prioritize a user-friendly design while still incorporating key features that added value. This compromise allowed us to create a well-rounded website that met both user needs and our project goals. The experience strengthened our teamwork and communication, leading to a successful final product.
+
+-----------------------------------------------------------------------------------
+Q. how did you have divided the work among team
+When we started the Medi-Connect project, we held an initial meeting to discuss everyone's strengths and interests, then we divided the work among several key teams like UI/UX team focused on creating an attractive and engaging user experience to ensure the design was user-friendly.The front-end development team was responsible for coding the user interface and implementing design elements. A separate content creation team handled the research and writing of health-related articles for the website.
+
+-----------------------------------------------------------------------------------
+Q. how was your network in college
+During my college, I actively built a strong network by engaging with diverse classmates and participating in various activities. In my first year, I lived in the college hostel with students from different branches, which helped me connect with individuals from various fields. I also had the opportunity to conduct a college fest event, where I collaborated with many students and faculty, further expanding my network.
+
+Additionally, as the vice president of the photography club, I connected with fellow photography enthusiasts and organized events that brought students together. My role as a student coordinator of the Institution’s and Innovation Council (IIC) allowed me to interact with entrepreneurs and industry professionals, enriching my experience. Being part of the anti-ragging committee also helped me connect with peers who wanted to create a safe and supportive environment. Overall, these experiences not only enhanced my skills but also significantly grew my network within the college community.
+
+-------------------------------------------------------------------------
+Q. Least fav subject
+My least favorite subject during engineering was M2 because of the very large mathematical calculations involved. I found it quite challenging, but I recognized the importance of mastering the material. To overcome this, I put in a lot of hard work and dedicated extra time to studying. As a result, I was able to earn an A+ grade in the subject, which taught me the value of effort and determination.
+
+Q. Most fav subject
+My favorite subject during engineering was Data Structures. I really enjoyed it because it combined theory with practical application. This subject helped me to develop critical thinking and problem-solving skills, which are essential in the tech field. It sparked my interest in pursuing a career in software development.
+
+--------------------------------------------------------------------------------
+Q. why should we hire you ?
+A. sir, i believe i'm a great fit for this role . I'm a self motivated person and give my 100% to any tasks that is given to me that is why i've been able to do good with my academics and surely i will do same for any project that is given to me in the company. I also work well both as an individual contributor and a team member that is why i have multiple solo and team projects overall i believe i can contribute a lot to the organization with my skill and will.
+--------------------------------------------------------------------------------
+Q. do you have any questions?
+A. I am a fresher as you know so what do you suggest me to follow in my career according to your experiences
+
+What are  some of the exciting projects that Accenture team is working on
+--------------------------------------------------------------------------------
+Q. weaknesses ???
+My weakness is I am an emotional person I can't say no to anyone.
+
+One of my weaknesses is that I tend to be a perfectionist. I have high standards for my work, and I strive for excellence in everything I do. While this has helped me produce high-quality results, I’ve realized it can sometimes lead to spending too much time on details or delaying decisions.
+
+---------------------------------------------------------------------------------------------
+Q. jaldi khatam krne p...
+A. I think it's too early would u like to know more about my skills

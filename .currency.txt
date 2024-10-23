@@ -1,0 +1,5 @@
+I have developer a currency convertor, a  responsive user interface using HTML, CSS, and JavaScript,
+ enhanced with Tailwind CSS for streamlined styling. Implemented real-time currency conversion with 
+ JavaScript and API integration, 
+ensuring accurate and up-to-date exchange rates. Supported multiple currencies, providing a seamless
+ user experience with intuitive selection options and precise calculations.  

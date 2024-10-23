@@ -1,0 +1,106 @@
+Key differences between C++ and JavaScript?
+A: C++ is a statically typed, compiled language often used for system-level programming and applications requiring high performance. JavaScript, on the other hand, is dynamically typed, interpreted, and mainly used for web development to handle client-side behavior. C++ offers fine control over memory management, whereas JavaScript is more focused on asynchronous, event-driven programming.
+
+----------------------------------------------------------------------------------
+Q: Use cases where you would prefer C over C++?
+I would prefer C++ over C in scenarios that benefit from object-oriented programming, such as developing large-scale software, game development, and graphical user interfaces (GUIs). C++ provides features like classes, inheritance, and polymorphism, which allow better code organization, reusability, and maintainability. It also supports libraries like Qt for GUI development and offers better tools for managing complex systems. While C is great for low-level programming, C++ combines performance with modern programming paradigms, making it ideal for applications that need both efficiency and scalability, such as game engines or real-time simulations.
+
+----------------------------------------------------------------------------------
+Q: How did you design an e-commerce website at IBM?
+A: At IBM, I designed the website focusing on a clean, intuitive interface using HTML for structure, CSS for styling, and JavaScript for dynamic interaction. I used responsive design principles to ensure compatibility across devices and implemented navigation features like category browsing and a shopping cart. The challenge was handling large amounts of dynamic data, which I optimized using lazy loading techniques for faster page load times.
+
+----------------------------------------------------------------------------------
+Q: Real-time previews for image transformations?
+A: I used JavaScript’s canvas API to manipulate images. For real-time previews, I created event listeners that would update the canvas on each user interaction, such as changing brightness or applying a filter. The transformations were optimized to occur in the background without blocking the UI.
+
+----------------------------------------------------------------------------------
+Q: How does local storage work, and how did you use it?
+A: Local storage is a web storage feature that allows key-value pairs to be stored in the browser. In the Notes Master project, I used local storage to persist user data (notes) across sessions. Every time a user added, deleted, or viewed a note, it was synced with local storage, ensuring the notes would be available even after the browser was closed.
+
+----------------------------------------------------------------------------------
+Q: Role of JWT and bcrypt in authentication?
+A: JWT (JSON Web Token) is used for securely transmitting information between parties as a JSON object, and it helps with session management in stateless authentication. Bcrypt is a hashing function used to securely store passwords by hashing them before storing in the database. In Khatabook, JWT was used to manage user sessions, and bcrypt ensured passwords were securely stored and compared.
+
+----------------------------------------------------------------------------------
+Q: When to use SQL vs. MongoDB?
+A: SQL is best for structured data with clear relationships and a need for complex queries (e.g., banking systems). MongoDB, a NoSQL database, is ideal for unstructured data or when data needs to scale horizontally (e.g., social media platforms). I used MongoDB in my Khatabook project because of its flexibility in handling varying financial records and its ability to scale.
+
+----------------------------------------------------------------------------------
+Q: Benefits of Tailwind CSS?
+A: Tailwind CSS provides utility-first classes, making it easier to design responsive layouts without writing custom CSS. This makes development faster, as I can directly apply classes like flex or grid to elements without having to switch to an external stylesheet.
+
+----------------------------------------------------------------------------------
+Q: How does C++ manage memory allocation and deallocation, and what are the risks of improper memory management?
+A: In C++, memory is allocated using the new keyword and deallocated using delete. If memory is not properly deallocated, it can lead to memory leaks, which over time may exhaust system resources. Improper deallocation or trying to access already freed memory can lead to dangling pointers, which cause undefined behavior and potentially crash the program.
+
+----------------------------------------------------------------------------------
+Q: What are the differences between struct and class in C++? When would you use one over the other?
+A: The main difference is that members of a struct are public by default, while members of a class are private by default. struct is typically used for simple data structures, whereas class is used when you need to implement encapsulation and define methods, constructors, and destructors.
+
+----------------------------------------------------------------------------------
+Q: Can you explain the difference between let, var, and const in JavaScript and provide examples?
+A: var is function-scoped and hoisted, meaning it can be accessed before initialization, which can lead to bugs. let and const are block-scoped, providing better control over variable scope. const is used for constants whose value doesn’t change, while let is used for variables that can be reassigned.
+
+----------------------------------------------------------------------------------
+Q: What are closures in JavaScript, and how do they work? Can you provide a use case?
+A: Closures occur when a function retains access to variables from its outer scope even after the outer function has executed. A common use case is creating private variables in a function, like a counter that can be incremented but not directly modified from outside the function.
+
+----------------------------------------------------------------------------------
+Q: What is the event-driven architecture in Node.js, and how does it help in building scalable applications?
+A: Node.js is event-driven, meaning it uses an event loop to handle asynchronous operations. Instead of waiting for I/O operations to complete, it executes callbacks when events occur. This non-blocking model allows Node.js to handle a large number of concurrent connections efficiently, making it suitable for real-time applications.
+
+----------------------------------------------------------------------------------
+Q: How do middleware functions work in Express.js, and how would you use them to handle user authentication?
+A: Middleware functions in Express.js are functions that execute during the request-response cycle. For user authentication, a middleware can verify a JSON Web Token (JWT) from the request header. If the token is valid, the user is allowed to proceed to the protected route; otherwise, they receive an authentication error.
+
+----------------------------------------------------------------------------------
+Q: How do you design a schema in MongoDB, and how do you handle relationships between collections in a NoSQL database?
+A: In MongoDB, schema design is flexible and allows for dynamic document structures. I handle relationships by embedding documents for one-to-few relationships (e.g., user profile and address) and by referencing collections for one-to-many or many-to-many relationships (e.g., orders and products). I choose based on performance needs and the complexity of the data.
+
+----------------------------------------------------------------------------------
+Q: How would you optimize an SQL query to improve performance in a database with millions of records?
+A: To optimize SQL queries, I would create indexes on frequently queried columns, avoid full table scans by limiting the use of SELECT *, minimize the number of joins and subqueries, and use pagination for large datasets. I would also analyze query plans using the EXPLAIN command to identify performance bottlenecks.
+
+----------------------------------------------------------------------------------
+Q: What are the trade-offs of using MongoDB over SQL, and in which scenarios would you prefer one over the other?
+A: MongoDB is better suited for unstructured or semi-structured data and applications requiring horizontal scalability. It’s preferred for applications where the schema may evolve over time, like social media platforms. SQL, on the other hand, is ideal for structured data with strong relationships, such as banking systems, where ACID properties are crucial.
+
+----------------------------------------------------------------------------------
+Q: How does Tailwind CSS differ from Bootstrap, and what are the advantages of using a utility-first framework?
+A: Tailwind CSS provides low-level utility classes (e.g., flex, grid) for directly styling components, giving more control over design without writing custom CSS. In contrast, Bootstrap offers pre-designed components. Tailwind allows for more flexibility and customization, making it ideal for projects requiring unique designs.
+
+----------------------------------------------------------------------------------
+Q: How do you handle error management in RESTful APIs, and what status codes do you use for common scenarios?
+A: In RESTful APIs, I handle errors by returning appropriate HTTP status codes and descriptive error messages. Common status codes include 200 for success, 400 for bad requests, 401 for unauthorized, 404 for not found, and 500 for server errors. I also log errors server-side for debugging.
+
+----------------------------------------------------------------------------------
+Q: Can you explain the event loop in JavaScript and how it handles asynchronous code execution?
+A: The event loop continuously checks the call stack for functions to execute. When asynchronous operations (e.g., API calls) are completed, the callback functions are pushed to the event queue, waiting to be executed when the call stack is empty, ensuring non-blocking execution of code.
+
+----------------------------------------------------------------------------------
+Q: What are some common web security vulnerabilities, and how would you protect an application from SQL injection and cross-site scripting (XSS)?
+A: Common vulnerabilities include SQL injection, XSS, and CSRF. For SQL injection, I use parameterized queries or prepared statements to prevent malicious inputs. For XSS, I ensure user input is properly sanitized and escaped before rendering it in the browser to avoid injecting scripts.
+
+----------------------------------------------------------------------------------
+Q: What is OAuth, and how would you implement it in a web application for user login through third-party services like Google?
+A: OAuth is an open standard for token-based authentication. It allows users to log in using third-party accounts like Google without sharing passwords. In a web app, I would implement OAuth by redirecting the user to the provider for login, receiving an access token, and using that token to authenticate API requests.
+
+----------------------------------------------------------------------------------
+Q: How do you ensure your web applications are fully responsive across different devices and screen sizes?
+A: I ensure responsiveness by using media queries in CSS, creating fluid grids using frameworks like Tailwind or Flexbox, and setting relative units like percentages for widths and margins. I also test designs across multiple screen sizes to ensure consistent behavior.
+
+----------------------------------------------------------------------------------
+Q: How does Node.js compare to other backend technologies like Python (Django) or Java (Spring) in terms of performance and scalability?
+A: Node.js excels in performance for I/O-bound tasks due to its non-blocking event-driven architecture, making it ideal for real-time applications. However, for CPU-intensive tasks, technologies like Java (Spring) or Python (Django) might offer better concurrency through multi-threading. Node.js scales horizontally, while Django and Spring are better for vertically scaling CPU-bound applications.
+
+----------------------------------------------------------------------------------
+Q: Can you walk us through how you would design a class structure for an e-commerce platform?
+A: I would design classes like Product, User, Order, and Cart. Each class would have attributes and methods, e.g., Product with price and inventory, and Order with order status and payment processing. I would also include inheritance where appropriate, such as AdminUser inheriting from User with additional privileges.
+
+----------------------------------------------------------------------------------
+Q: How did you handle large image files in your image editor project to ensure smooth performance and fast loading times?
+A: I optimized the image editor by using the canvas API for efficient rendering, loading images in chunks to avoid blocking the main thread, and compressing images before applying filters to reduce file size and improve performance.
+
+----------------------------------------------------------------------------------
+Q: Can you describe how you approach error handling in your code, particularly when working with asynchronous operations in JavaScript?
+A: In JavaScript, I handle asynchronous errors using try-catch blocks for async/await functions, and I attach .catch() to promises to handle any errors. I also ensure proper error messages are logged and user-friendly notifications are shown for better user experience.

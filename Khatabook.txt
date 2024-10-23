@@ -1,0 +1,17 @@
+"Khatabook" is an account-keeping application that I developed using Node.js, Express.js, MongoDB, and
+ EJS for server-side rendering making it possible to generate dynamic web pages on the server 
+ before sending them to the client. The application includes secure user authentication features such as 
+ login and signup, using JWT for session management and bcrypt for password encryption to maintain data security.
+
+The app allows users to create, view, manage, and filter 'Hisaab' entries. Each entry can be
+ encrypted for added privacy, with an option to set a passcode. Users can also create shareable 
+ files with editable permissions to allow for collaboration and easy access.
+
+I implemented Axios POST requests to create shareable files with encrypted permissions,
+ allowing other users to access the file in real-time using a secure passcode provided by the owner.
+
+
+
+This project helped me improve my backend development skills and allowed me to explore real-world applications
+ for organizing and managing records efficiently.
+

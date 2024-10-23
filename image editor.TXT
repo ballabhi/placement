@@ -1,0 +1,4 @@
+"I created a web-based image editor using HTML, CSS, and JavaScript. It lets users apply different filters
+ like brightness, saturation, inversion, and grayscale, and also make transformations like rotating and
+  flipping images. Users can upload their images, see real-time previews of the changes, and save the edited 
+  images."

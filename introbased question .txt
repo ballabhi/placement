@@ -1,0 +1,43 @@
+Based on your introduction, here are potential **technical** and **HR** questions that an interviewer might ask, along with sample answers:
+
+### **Technical Questions:**
+
+1. **Can you explain the project "Khatabook" and the technologies you used?**
+   **Answer**: *Khatabook* is an account-keeping app that allows users to manage their financial records, or "Hisaab" entries. I used **Node.js** for the backend, **Express.js** for routing, and **MongoDB** for data storage. I implemented secure user authentication using **JWT** for token-based security and **bcrypt** for password hashing. The app allows real-time collaboration using Axios, making it efficient for users to share files and manage entries.
+
+2. **How does JWT ensure security in your Khatabook project?**
+   **Answer**: JWT (JSON Web Token) is used to securely transmit information between the client and server. After a user logs in, the server generates a signed token that is sent to the client. The client stores this token and includes it in headers for subsequent requests. The server verifies the token to ensure it hasn't been tampered with, without needing to check the database on every request. This makes it both secure and efficient.
+
+3. **What are the differences between MySQL and MongoDB? Why did you choose MongoDB for Khatabook?**
+   **Answer**: MySQL is a **relational database** that stores data in tables with fixed schemas. It's great for structured data. MongoDB, on the other hand, is a **NoSQL database** that stores data in flexible, JSON-like documents. I chose MongoDB for *Khatabook* because it allows for greater flexibility in handling various types of user data without requiring a predefined schema. It also scales well for applications with large datasets.
+
+4. **How did your internship at IBM help you improve your front-end skills?**
+   **Answer**: During my IBM internship, I worked on building a responsive, user-friendly e-commerce website. I enhanced my skills in **HTML, CSS, and JavaScript** by focusing on making the website accessible and intuitive. I learned how to optimize web pages for faster loading times and smoother navigation, which significantly improved my understanding of front-end technologies.
+
+5. **What are the key features of bcrypt, and why did you use it for password encryption?**
+   **Answer**: bcrypt is a secure hashing function that automatically adds a salt to the password before hashing, making it more resistant to rainbow table and brute-force attacks. I used bcrypt in *Khatabook* to ensure that passwords are securely stored and cannot be easily decrypted, even if someone gains access to the database.
+
+6. **What is the role of Axios in real-time collaboration in Khatabook?**
+   **Answer**: Axios is a promise-based HTTP client used to make asynchronous HTTP requests. In *Khatabook*, I used Axios to enable real-time collaboration by sending and receiving data from the server without reloading the page. This ensures that users can share and update files in real-time, providing a smooth and dynamic experience.
+
+7. **Can you explain the advantages of using Node.js for backend development?**
+   **Answer**: Node.js is a **non-blocking**, event-driven JavaScript runtime that allows for the development of scalable and efficient server-side applications. It can handle multiple requests concurrently, making it ideal for real-time applications like chat systems and collaborative tools. Additionally, because it's built on JavaScript, it allows for easier sharing of code between the frontend and backend.
+
+### **HR Questions:**
+
+1. **Tell me about a challenge you faced during your internship and how you handled it.**
+   **Answer**: During my internship at IBM, one of the challenges was optimizing the performance of a large e-commerce website to ensure it loaded quickly despite high data volume. I solved this by implementing lazy loading for images and pagination for product listings, which significantly improved loading times and user experience.
+
+2. **What motivates you to pursue a career at Infosys?**
+   **Answer**: Infosys is known for its excellent work culture and commitment to innovation. As someone passionate about technology, I admire the way Infosys blends cutting-edge solutions with social responsibility. I believe the company offers a great platform for continuous learning and growth, which aligns with my long-term career goals.
+
+3. **How do you manage your time between academics, internships, and extracurricular activities?**
+   **Answer**: I prioritize my tasks based on deadlines and importance. I use time management techniques like creating daily to-do lists and breaking larger projects into smaller tasks. My involvement as a social media manager and a student coordinator has helped me develop multitasking skills, enabling me to balance my academic and extracurricular responsibilities effectively.
+
+4. **Where do you see yourself in the next five years?**
+   **Answer**: In the next five years, I see myself as a skilled full-stack developer, contributing to challenging projects at a company like Infosys. I aim to deepen my expertise in backend technologies and cloud computing while continuously learning and growing both professionally and personally.
+
+5. **How do you handle feedback and criticism?**
+   **Answer**: I see feedback as an opportunity to improve. When I receive constructive criticism, I take the time to understand the feedback, reflect on it, and work on the areas that need improvement. For example, after receiving feedback during my internship, I focused on improving the responsiveness of my designs, which enhanced the overall project outcome.
+
+These questions will help you prepare for both technical and HR aspects of your interview.

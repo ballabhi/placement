@@ -1,0 +1,42 @@
+Here are possible interview questions for a fresher, based on your resume, with sample answers:
+
+### 1. **Tell me about yourself.**
+   **Answer**: I am Ballabhi Rawat, currently pursuing a B.Tech in Computer Science & Engineering from Lakshmi Narain College of Technology & Science, with a CGPA of 8.52. I have experience in programming languages like C++, C, and JavaScript, and I've worked with technologies like Node.js, React.js, and MongoDB. Recently, I completed a frontend development internship at IBM, where I designed a full-fledged e-commerce website. I'm passionate about problem-solving and web development, and I enjoy learning new technologies.
+
+### 2. **What programming languages are you comfortable with?**
+   **Answer**: I am proficient in C++, C, and JavaScript. I also have experience using HTML, CSS, and have worked with frameworks like Node.js and React.js for web development.
+
+### 3. **Can you tell me about a project you have worked on?**
+   **Answer**: One of the key projects I've worked on is *Khatabook*, a financial management application. I used Node.js, Express.js, MongoDB, and EJS to develop it. The app includes user authentication, with features for creating, viewing, and filtering financial entries. I implemented secure login using JWT and bcrypt for encrypted passwords, ensuring both data security and usability.
+
+### 4. **Describe your experience during your internship at IBM.**
+   **Answer**: During my internship at IBM, I led the development of an e-commerce website similar to platforms like Myntra and Amazon. I used HTML for structuring, CSS for styling, and JavaScript for interactivity. I focused on creating an intuitive user experience and implementing features like smooth navigation, product listings, and filters.
+
+### 5. **What is your experience with databases?**
+   **Answer**: I have experience working with both SQL and MongoDB. I used MongoDB extensively in my *Khatabook* project for managing user data and financial records. MongoDB's flexible schema design allowed me to implement efficient data storage and retrieval processes.
+
+### 6. **What is your biggest strength?**
+   **Answer**: My biggest strength is problem-solving. I enjoy tackling complex issues and breaking them down into manageable steps. Whether it's coding or a real-life scenario, I’m focused on finding efficient solutions.
+
+### 7. **What challenges have you faced in your projects, and how did you overcome them?**
+   **Answer**: One challenge during the *Khatabook* project was ensuring data security while keeping the login process smooth. I resolved this by using JWT for token-based authentication and bcrypt to securely hash passwords. This solution balanced security with user experience.
+
+### 8. **Why did you choose to work on web development projects?**
+   **Answer**: I enjoy the blend of creativity and logic that web development offers. From designing user-friendly interfaces to ensuring smooth backend functionality, web development allows me to see the immediate impact of my work and offers endless learning opportunities.
+
+### 9. **What are some of the tools you have used during development?**
+   **Answer**: I have used tools like Git for version control, GitHub for repository management, Figma for designing interfaces, and Visual Studio Code as my development environment.
+
+### 10. **What motivates you to work in this field?**
+   **Answer**: The fast-paced nature of the tech industry motivates me. I love solving real-world problems through technology and the constant opportunity to learn new tools and frameworks keeps me engaged and excited about my work.
+
+### 11. **What are your career goals for the next 5 years?**
+   **Answer**: In the next 5 years, I see myself growing as a full-stack developer, contributing to innovative projects. I plan to deepen my knowledge in backend technologies, cloud computing, and also contribute to open-source projects to refine my skills.
+
+### 12. **How do you keep yourself updated with new technologies?**
+   **Answer**: I regularly take online courses, such as those from Coursera, where I completed courses on HTML5, CSS, JavaScript, and Database Management. I also actively participate in coding challenges on platforms like LeetCode.
+
+### 13. **Why should we hire you?**
+   **Answer**: As a fresher, I bring enthusiasm and a strong foundation in web development, which I've demonstrated in my internships and projects. I am quick to learn and adapt to new technologies, and I have a proven track record of delivering functional and user-friendly solutions in my projects.
+
+These questions are typical for a fresher’s interview and will help you prepare comprehensively based on your resume.

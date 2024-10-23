@@ -1,0 +1,25 @@
+Good morning, Sir. I am Ballabhi Rawat, born and brought up in Chhatarpur, Madhya Pradesh.
+I completed my secondary education at shealing public school,  securing 87% in 10th and 86% in 12th.
+Currently, I am pursuing a B.Tech in Computer Science & Engineering at Lakshmi Narain College of Technology 
+and Science (LNCTS), with a current CGPA of 8.53.
+
+I have a strong foundation in programming languages like C and C++, with experience in Data Structures 
+and Algorithms (DSA) using C++. I am proficient in front-end technologies like HTML, CSS, and JavaScript, 
+and I also have experience in backend development using Node.js, Express.js, and databases like MySQL and MongoDB.
+
+ To gain practical experience, I completed a front-end development internship with IBM SkillBuild AICTE, 
+ where I improved my skills in web development. in my  major project "I developed Khatabook, an account-keeping
+  app using Node.js, Express.js, MongoDB, and EJS. It features secure user authentication with JWT and bcrypt 
+  for data encryption, allowing users to manage 'Hisaab' entries. The app also supports shareable files with 
+  real-time collaboration through Axios. This project sharpened my backend skills and experience in data security."
+
+Apart from my academics, I working  as social media manager at DEVs dungeons and act as
+ a Student Coordinator at the Institution’s Innovation Council (IIC) i had conducted multiple events at my 
+ college, My dream is to be placed at infosys  which is one of the top multinational company and having 
+ good working environment 
+
+
+I am passionate about technology and continuously strive to learn and grow.
+
+
+

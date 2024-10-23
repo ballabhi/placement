@@ -1,0 +1,62 @@
+1. What programming languages do you know, and how proficient are you in them?
+Answer: I am proficient in C++, C, and JavaScript. I have used C++ and C extensively in problem-solving and algorithm development. In JavaScript, I have experience building web applications, including both frontend and backend development using Node.js and React.js.
+
+2. Can you explain the difference between C++ and JavaScript?
+Answer: C++ is a statically typed, compiled language primarily used for system-level programming and applications requiring high performance. JavaScript is a dynamically typed, interpreted language designed for web development. While C++ offers low-level memory management, JavaScript is used for client-side and server-side scripting in web applications.
+
+3. What are some of the projects you have worked on?
+Answer: I’ve worked on several projects including:
+
+Khatabook: A financial management application built using Node.js, Express.js, and MongoDB. It includes user authentication with JWT and bcrypt for secure password storage.
+Image Editor: A web-based image editor using HTML, CSS, and JavaScript that allows users to apply filters and transformations to images.
+Currency Converter: A responsive web application using JavaScript and Tailwind CSS for real-time currency conversion with API integration.
+4. How did you implement authentication in your Khatabook project?
+Answer: I used JWT (JSON Web Token) for token-based authentication and bcrypt for hashing passwords. JWT tokens were generated upon successful login and sent to the client, which then included the token in headers for subsequent requests. Bcrypt was used to hash user passwords securely before storing them in the database.
+
+5. What is the difference between SQL and MongoDB, and when would you use each?
+Answer: SQL is a relational database management system (RDBMS) where data is stored in tables with predefined schemas. It is ideal for structured data. MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, making it ideal for unstructured or semi-structured data. I used MongoDB in the Khatabook project for its flexibility and scalability, which allowed me to handle different types of financial data efficiently.
+
+6. What challenges did you face while developing the e-commerce website during your IBM internship?
+Answer: One challenge was ensuring smooth navigation and fast loading times for the large product listings. I addressed this by optimizing the website structure with clean HTML and CSS for styling, and JavaScript to handle dynamic interactions efficiently. Additionally, I implemented lazy loading for images and paginated the product listings to improve performance.
+
+7. Explain how Node.js handles asynchronous operations.
+Answer: Node.js uses an event-driven, non-blocking I/O model, which allows it to handle multiple operations without blocking the main thread. It uses an event loop to manage asynchronous operations, such as file reading or database querying. These operations are initiated, and once they complete, a callback is triggered, allowing the application to continue executing other tasks while waiting for the asynchronous operation to complete.
+
+8. What is Tailwind CSS, and how did you use it in your Currency Converter project?
+Answer: Tailwind CSS is a utility-first CSS framework that allows developers to style their applications using predefined classes directly in the HTML. In the Currency Converter project, I used Tailwind CSS to quickly create a responsive and clean user interface without writing a lot of custom CSS. It streamlined the design process and helped in maintaining consistency across the application.
+
+9. What is Express.js, and why did you choose it for backend development?
+Answer: Express.js is a minimal and flexible Node.js web application framework that provides features for building web and mobile applications. It simplifies tasks like routing, handling HTTP requests, and managing middleware. I chose Express.js for my projects like Khatabook because it allowed me to build a scalable and efficient RESTful API quickly.
+
+10. Can you explain how a RESTful API works?
+Answer: A RESTful API uses HTTP methods like GET, POST, PUT, and DELETE to perform CRUD (Create, Read, Update, Delete) operations on resources, which are typically represented as JSON objects. In the Khatabook project, I implemented a RESTful API using Express.js to manage user data, including financial entries and user authentication requests.
+
+11. What is the purpose of using bcrypt in password storage?
+Answer: bcrypt is a password-hashing function designed to secure passwords by adding a salt and then hashing them. This makes it difficult for attackers to crack passwords using rainbow tables or brute force. Bcrypt also allows for adjusting the computational cost, which can be increased as computing power grows, providing better security over time.
+
+12. What is the DOM (Document Object Model) in JavaScript, and how does it work?
+Answer: The DOM is an interface that allows programs to interact with HTML and XML documents as a tree structure, where each node is an object representing part of the document. JavaScript can manipulate these nodes (elements, attributes, text) to dynamically update or modify the content and structure of a webpage.
+
+13. What is the use of Git, and how have you used it in your projects?
+Answer: Git is a version control system that helps track changes in code and allows collaboration between developers. I used Git in all my projects to manage versions, work on different features in separate branches, and collaborate with team members. GitHub was used to host my repositories and collaborate with other developers through pull requests.
+
+14. How do you handle errors in Node.js?
+Answer: In Node.js, errors are typically handled using try-catch blocks for synchronous code and error-first callbacks or promises for asynchronous code. For example, when making API calls or interacting with databases, I use try...catch for promises or .then() and .catch() methods for handling errors. In the Express.js backend, I also use middleware for centralized error handling.
+
+15. What is the purpose of using middleware in Express.js?
+Answer: Middleware in Express.js functions as functions that have access to the request and response objects and can modify them or end the request-response cycle. Middleware is used for tasks like logging, authentication, handling errors, and parsing request bodies. For example, I used authentication middleware in the Khatabook project to verify JWT tokens before allowing access to protected routes.
+
+16. Can you explain how API integration works and how you implemented it in your Currency Converter project?
+Answer: API integration involves connecting an application to external services or data sources by making HTTP requests to fetch or send data. In the Currency Converter project, I integrated a currency exchange API by using JavaScript's fetch method to send requests, retrieve real-time exchange rates, and update the user interface with the converted amounts.
+
+17. What is the difference between synchronous and asynchronous programming?
+Answer: In synchronous programming, tasks are executed one after the other, meaning each task waits for the previous one to complete before starting. In asynchronous programming, tasks can start without waiting for previous ones to finish, allowing the program to handle multiple operations at the same time. Node.js uses asynchronous programming to handle I/O operations efficiently without blocking the main thread.
+
+18. Explain the concept of callbacks in JavaScript.
+Answer: A callback is a function passed as an argument to another function and is executed after the completion of the task. In JavaScript, callbacks are often used to handle asynchronous operations. For example, when reading a file or making an API call, a callback is triggered once the operation completes to handle the result.
+
+19. What are promises in JavaScript, and how do they differ from callbacks?
+Answer: Promises in JavaScript are used to handle asynchronous operations more efficiently than callbacks. A promise represents the eventual completion (or failure) of an asynchronous task and allows chaining .then() and .catch() methods to handle success and errors, respectively. Promises avoid "callback hell" and make the code more readable.
+
+20. What is Figma, and how have you used it?
+Answer: Figma is a collaborative design tool used for creating user interfaces and prototypes. I used Figma during my IBM internship to design wireframes and mockups for the e-commerce website. It helped in visualizing the layout and user experience before starting the development process.

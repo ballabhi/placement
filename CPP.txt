@@ -1,0 +1,38 @@
+Q. Explain the concept of object-oriented programming in C++.
+A. OOP in C++ is a programming paradigm that uses classes and objects. It emphasizes encapsulation, inheritance, polymorphism, and abstraction, enabling code reuse and modular design.
+
+----------------------------------------------------------------------------------
+What is the difference between struct and class in C++?
+The primary difference is that members of a struct are public by default, while members of a class are private by default.
+
+----------------------------------------------------------------------------------
+How does C++ implement polymorphism?
+C++ implements polymorphism via function overloading (compile-time) and virtual functions (run-time), allowing methods to behave differently based on input or object type.
+
+-----------------------------------------------------------------------------------
+What is a virtual function and how does it work in C++?
+A virtual function is a member function in the base class that can be overridden in a derived class. It enables run-time polymorphism by determining which function to call based on the type of the object pointed to.
+
+----------------------------------------------------------------------------------
+What is the role of constructors and destructors in C++?
+Constructors initialize an object when it is created, while destructors clean up resources when an object is destroyed.
+
+----------------------------------------------------------------------------------
+How does memory management work in C++ (stack vs heap)?
+Memory in C++ is managed on the stack for local variables (automatically managed) and on the heap for dynamically allocated memory (manually managed with new and delete).
+
+----------------------------------------------------------------------------------
+What are smart pointers in C++ and why are they useful?
+Smart pointers (like std::unique_ptr and std::shared_ptr) automatically manage dynamic memory, preventing memory leaks by automatically releasing memory when it is no longer needed.
+
+----------------------------------------------------------------------------------
+Can you explain the concept of multiple inheritance in C++?
+Multiple inheritance allows a class to inherit from more than one base class. C++ handles ambiguity from multiple inheritance using the virtual inheritance keyword to avoid the diamond problem.
+
+----------------------------------------------------------------------------------
+How do templates work in C++ and what are their use cases?
+Templates enable generic programming, allowing functions and classes to operate with different data types without rewriting code. They are used for things like STL containers (e.g., std::vector, std::list).
+
+----------------------------------------------------------------------------------
+What is the difference between deep copy and shallow copy in C++?
+A shallow copy duplicates an object without copying dynamic memory, while a deep copy duplicates both the object and any memory it allocates, preventing pointer issues between the original and the copy.

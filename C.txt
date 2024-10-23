@@ -1,0 +1,42 @@
+What are the key differences between C and C++?
+C is a procedural language, while C++ supports both procedural and object-oriented programming. C++ also supports features like classes, inheritance, and polymorphism, which C lacks.
+
+---------------------------------------------------------------------------
+Explain the role of pointers in C. How do you use them?
+Pointers store memory addresses and are used for dynamic memory allocation, passing functions by reference, and creating complex data structures like linked lists.
+
+---------------------------------------------------------------------------
+What are memory leaks, and how do you prevent them in C?
+A memory leak occurs when dynamically allocated memory is not freed. It can be prevented by using free() to deallocate memory after use.
+
+
+What is the difference between malloc and calloc in C?
+malloc allocates uninitialized memory, while calloc allocates zero-initialized memory. calloc also requires the number of elements and size per element, unlike malloc.
+
+
+How does a struct work in C, and how is it different from a class?
+In C, a struct is a collection of variables of different types. Unlike C++, it doesn’t support methods, access control (private, public), or inheritance.
+
+
+Explain the difference between pass-by-value and pass-by-reference in C.
+In pass-by-value, a copy of the variable is passed, while in pass-by-reference, the actual memory address is passed, allowing modification of the original variable.
+
+
+What is the use of static keyword in C?
+The static keyword in C restricts the scope of a variable to the file or function where it is declared. It also persists the value of local variables across function calls.
+
+
+How does function pointer work in C? Provide an example.
+A function pointer holds the address of a function and can be used to call functions dynamically. Example:
+c
+Copy code
+void (*funcPtr)(int) = &myFunction;
+funcPtr(10); // Calls myFunction with argument 10
+
+
+What is the difference between arrays and pointers in C?
+Arrays represent contiguous memory locations, and their size is fixed at compile time. Pointers are variables that store addresses and can point to any memory location dynamically.
+
+
+Can you explain how memory is managed using free() in C?
+free() deallocates memory previously allocated by malloc, calloc, or realloc. It prevents memory leaks by returning memory to the system.
